@@ -3,3 +3,40 @@ box-sizing: border-box;
 margin: 0;
 padding: 0;
 }
+
+/* header */
+
+.banner {
+height: 100px;
+}
+
+#logo{
+    height: 90px;
+    vertical-align: middle;
+    padding: 10px 0px 0px 150px;
+}
+
+h1{
+    font-weight: 700;
+    display: inline-block;
+    color: rgb(3,23,50);
+}
+#name_tobo{
+    font-size: 50px;
+    line-height: 100%;
+    vertical-align: middle;
+}
+
+#task {
+    height: 1000px;
+    width: 1200px;
+    background-color: cadetblue;
+    margin: auto;
+    
+}
+
+.container{
+    background-color: lightgray;
+    padding-top: 50px;
+    margin: 0px 100px;
+}
