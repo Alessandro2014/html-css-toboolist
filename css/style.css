@@ -43,32 +43,74 @@ h1{
 
 .container{
     background-color: rgb(240, 239, 239);
-    padding-top: 50px;
+    padding: 50px;
 }
 
-.bgblue {
+.add_button {
+    font-size: 14px;
+    font-weight: 0;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px
+}
+
+.button_blue {
     color: white;
     background-color: rgb(46, 172, 221);
-    display: inline-block;
-    border-radius: 5px;
-    padding: 8px;
+    
 }
 
-.bgwhite {
+.button_white {
+    color: gray;
+    background-color:white;
+}
+
+.stiker {
+    color: white;
+    font-size: 12px;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 1px 15px;
+    margin: 7px;
+}
+
+.stiker_blue {
+    background-color: rgb(46, 172, 221);
+}
+
+.stiker_white {
     color:gray;
     background-color:white;
-    display: inline-block;
-    border-radius: 5px;
-    padding: 8px;
 }
 
+.stiker_purple {
+background-color: blueviolet;
+}
+
+.stiker_teal{
+    background-color: rgb(64, 146, 115);
+}
+
+.stiker_orange{
+    background-color: darkorange;
+}
+
+.stiker_pink{
+    background-color: rgb(253, 146, 164);
+}
+
+.stiker_green{
+    background-color: rgb(120, 160, 40);
+}
 .button {
-    padding: 10px 5px 10px 70px;
+    padding: 15px 5px 15px 70px;
 }
 
 .compiti{
     padding: 30px 5px 10px 70px;
     font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
 }
 
 .spunta_ok {
